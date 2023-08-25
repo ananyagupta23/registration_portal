@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.logout-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.section {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.section h1 {
+    margin: 0;
+    padding: 10px 0;
+}
+label {
+    display: inline-block;
+    width: 150px;
+    font-weight: bold;
+}
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="email"]
+ {
+    width: 50%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: red;
+}
